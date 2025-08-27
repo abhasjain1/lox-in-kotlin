@@ -3,7 +3,9 @@ Kotlin implementation of Lox programming language from [Crafting Interpreters](h
 The language grammar is taken from the book. 
 
 1.) The `Scanner.kt` converts the source code to Tokens `Token.kt`.
+
 2.) `Parser.kt` converts raw tokens to an AST (Abstract Syntax Tree). This outputs a List of Statements `Stmt.kt`. 
+
 3.) `Interpreter.kt` runs the program by moving down the AST via tree-walk.
 
 ## Current Support
